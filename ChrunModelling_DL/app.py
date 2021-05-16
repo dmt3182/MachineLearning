@@ -8,6 +8,7 @@ model = tf.keras.models.load_model('model.hdf5')
 
 
 @app.route('/')
+
 def home():
     return render_template('index.html')
 
